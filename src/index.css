@@ -58,15 +58,41 @@ a#nav-dropdown .dropdown-toggle .nav-link {
 #slider {
   width: 98%;
   margin: auto;
-} /*cardItems*/
+}
+/*cardItems*/
 #Card-container {
   width: 97%;
   margin: auto;
   margin-top: 12px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
 }
 #deal-of-the-day {
   margin-left: 12px;
 }
 .card {
   max-width: 150px !important;
+}
+/*loading*/
+#loading {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  z-index: 3;
+  background-color: black;
+  position: absolute;
+}
+#loading-icon {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: cursive;
+  margin-top: 10%;
+}
+#loading-icon #at-symbol {
+  height: 50px;
+  width: 50px;
 }
