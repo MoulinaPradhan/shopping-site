@@ -1,9 +1,11 @@
 import React from "react";
-import { Head, Home, NavLinks, Slides, Card } from "./";
-import * as firebase from "firebase";
+import { Head, Home, NavLinks, login,Signup } from "./";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-const Login = () => <div>Login</div>;
+{
+  /*const login = () => <div></div>;*/
+}
 class App extends React.Component {
   render() {
     return (
@@ -19,7 +21,8 @@ class App extends React.Component {
                 return <Home {...props} />;
               }}
             />
-            <Route path="/login" component={Login} />
+            <Route path="/login" component={login} />
+            <Route path="/signup" component={Signup} />
           </Switch>
         </div>
       </Router>

@@ -20,11 +20,10 @@ class Head extends React.Component {
           </Link>
           <Nav className="mr-auto">
             <Nav.Link>
-              {" "}
-              <Link to="/login">Login </Link>
+      <Link to="/login">Login </Link>
             </Nav.Link>
 
-            <Nav.Link href="#features"></Nav.Link>
+            <Nav.Link >  <Link to="/signup"> Signup</Link></Nav.Link>
           </Nav>
           <Form id="search" inline>
             <FormControl
